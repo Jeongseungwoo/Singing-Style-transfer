@@ -8,7 +8,6 @@ def conv1d_layer(inputs, filters, kernel_size, strides=1, padding="same", activa
                             activation=activation)(inputs)
     return conv1d
 
-# https://blog.lunit.io/2018/04/12/group-normalization/  IN 설명
 def instance_norm(inputs, activation=None) :
     instance_norm = tf.contrib.layers.instance_norm(
                                     inputs=inputs,
@@ -90,7 +89,7 @@ def skip_connection(input_1,input_2) :
 
 def conv1d_with_norm_act(inputs,filters, kernel_size, strides, padding="same") :
     conv1d = conv1d_layer(inputs=inputs, filters=filters, kernel_size=kernel_size, strides=strides)
-    conv1_norm_act = instance_norm(inputs=conv1d, activation=tf.nn.leaky_relu())
+    conv1_norm_act = instance_norm(inputs=conv1d, activation=tf.nn.leaky_relu)
     return conv1_norm_act
 
 def conv1d_with_3_layers(inputs, filters, kernel_size, strides, repeat = 3) :
