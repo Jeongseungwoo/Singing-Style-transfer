@@ -1,5 +1,5 @@
 n_epochs = 2000 
-g_type = "gated_cnn"  # or "u_net"
+g_type = "gated_cnn"  #generator type : "gated_cnn" or "u_net"
 
 sr = 16000  # sampling rate
 n_features = 24 # Mceps coefficient 
