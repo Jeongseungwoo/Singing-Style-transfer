@@ -32,9 +32,6 @@ class CycleGAN(object) :
             self.log_dir = os.path.join(log_dir, now.strftime('%Y%m%d-%H%M%S'))      
             self.writer = tf.summary.FileWriter(self.log_dir, tf.get_default_graph()) # Tensorboard
             self.generator_summaries, self.discriminator_summaries = self.summary()
-            
-        if generator == "U-net" :
-            self.generator = None  #추가 예정 
 
     def build_model(self) : 
 
