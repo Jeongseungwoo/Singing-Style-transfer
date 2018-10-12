@@ -8,7 +8,7 @@
 - python==3.6.5
 
 ## Usage
-Before Training you need to Prepare two Datasets and each must be located in "./data/train/A", "./data/train/B"
+Before Training, you need to Prepare two Datasets and each must be located in "./data/train/A", "./data/train/B"
 <pre><code>$ python train.py 
 $ python test.py</code></pre>
 
