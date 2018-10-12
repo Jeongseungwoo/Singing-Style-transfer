@@ -10,7 +10,7 @@
 ## Usage
 Before Training you need to Prepare two Datasets and each must be located in "./data/train/A", "./data/train/B"
 <pre><code>$ python train.py 
-$python test.py</code></pre>
+$ python test.py</code></pre>
 
 
 
