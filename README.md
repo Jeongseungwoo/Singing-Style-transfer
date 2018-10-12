@@ -9,7 +9,7 @@
 
 ## Usage
 Before Training you need to Prepare two Datasets and each must be located in "./data/train/A", "./data/train/B"
-<pre><code>$ python train.py <br>$python test.py</code></pre>
+<pre><code>$ python train.py <br> $python test.py</code></pre>
 
 
 
