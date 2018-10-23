@@ -18,5 +18,6 @@ $ python test.py</code></pre>
 [1] Cheng-Wei Wu, et al. Singing Style Transfer Using Cycle-Consistent Boundary Equilibrium Generative Adversarial Networks. 2018 
 <br>paper: https://arxiv.org/abs/1807.02254
 <br>
+
 [2] Takuhiro Kaneko, Hirokazu Kameoka. Parallel-Data-Free Voice Conversion Using Cycle-Consistent Adversarial Networks. 2017.
 <br>paper:https://arxiv.org/abs/1711.11293
